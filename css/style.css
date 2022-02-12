@@ -67,16 +67,30 @@ h6 {
 p {
   text-align: left;
   color: #C1C1C1;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 span {
+  font-size: 20px;
   color: #FFFFFF;
+}
+
+.autor {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 860px) {
+  .autor {
+    margin-left: -20px;
+  }
+  span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 860px) {
   h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
@@ -195,10 +209,6 @@ body {
   background-color: #14151F;
 }
 
-.border {
-  border: 1px solid royalblue;
-}
-
 .menu {
   width: 100%;
   display: -webkit-box;
@@ -211,7 +221,7 @@ body {
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 24px 16px;
   display: -webkit-box;
@@ -230,7 +240,7 @@ body {
 }
 
 .hero {
-  height: 40vh;
+  height: auto;
 }
 
 @media screen and (max-width: 860px) {
@@ -348,7 +358,7 @@ body {
 }
 
 .list-item {
-  max-width: 1080px;
+  max-width: 1220px;
   position: relative;
   margin: 0 auto;
   padding: 16px 24px;
@@ -376,8 +386,8 @@ body {
   transition: 1s ease;
   z-index: -1;
   opacity: 1;
-  -webkit-transform: translate(-50%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
-          transform: translate(-50%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
+  -webkit-transform: translate(-100%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
+          transform: translate(-100%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
 }
 
 @media screen and (max-width: 860px) {

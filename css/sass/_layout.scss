@@ -11,7 +11,7 @@
 
 
 .container {
-    max-width: 1080px; //1220px
+    max-width: 1220px; //1220px
     margin: 0 auto;
     padding: 24px 16px;
     display: flex;
@@ -21,7 +21,7 @@
 }
 
 .hero {
-    height: 40vh; //40vh
+    height: auto; //40vh
 }
 
 @media screen and (max-width: 860px) {
@@ -127,7 +127,7 @@
 
 
 .list-item {
-    max-width: 1080px; //1220px
+    max-width: 1220px; //1220px
 
     position: relative;
 
@@ -161,7 +161,7 @@
     transition: 1s ease;
     z-index: -1;
     opacity: 1;
-    transform: translate(-50%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
+    transform: translate(-100%, -50%) translate3d(-2000px, 0, 0) skewX(50deg);
 }
 
 
